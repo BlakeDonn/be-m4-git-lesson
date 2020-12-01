@@ -4,10 +4,6 @@ FactoryBot.define do
       Faker::Hipster.word
     end
 
-    sequence :description do
-      Faker::Lorem.sentence
-    end
-
     sequence :price do
       Faker::Number.decimal(2)
     end
